@@ -4,11 +4,47 @@
     border: solid 1px black;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+
+
+#albums {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+.album {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+
+    padding: 12px;
+    border: 1px solid black;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+}
+
+.album .album-title {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+/* .green {
+    background-color: green;
+} */
 
 footer {
     background-color: black;
     color: white;
-    
 }
 
 footer ul {
@@ -18,3 +54,5 @@ footer ul {
 footer a {
     color: white;
 }
+
+
